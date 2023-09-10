@@ -1,7 +1,7 @@
 The MIT License (MIT)
 
-Copyright (c) 2022 Fernando Cohen (https://codepen.io/designfenix/pen/xxWeEQV)
-Fork of an original work Disney Wall Parallax [Only CSS] (https://codepen.io/designfenix/pen/xxWeEQV)
+Copyright (c) 2022 
+Fork of an original work Disney Wall Parallax [Only CSS] 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
