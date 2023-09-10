@@ -1,10 +1,9 @@
-@charset "UTF-8";
-
-@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap");
 
 :root {
   --duration: 15s;
 }
+
+@import url('https://fonts.googleapis.com/css2? family= Patua+One & family= Poppins:wght@400;500;600;700 & family= Roboto:wght@400;700 & exibir=trocar');
 
 button {
   position: fixed;
@@ -192,6 +191,7 @@ body {
   border-width: 3px 0px 3px 0px;
   border-color: #ff4900;
   box-shadow: 0px 0px 10px 0px #ff4900;
+  background-color: rgba(10,23,55,0.5);
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
 
@@ -272,4 +272,145 @@ footer{
   text-align: center;
   color: white;
   font-family: "poppins";
+}
+
+@media (max-width: 1140px) {
+
+  html{
+    width: 100vw;
+  }
+  body{
+    width: 100%;
+  }
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 65px 150px 1fr 80px;
+    gap: 10px;
+    width: 100%;
+    position: absolute;
+    z-index: 1000;
+    padding: 10px;
+  }
+
+
+
+.boxFrase {
+  display: grid;
+  grid-template-rows: 40px 70px;
+  justify-content: flex-start;
+  background-color: rgba(10,23,55,0.5);
+  padding: 2px;
+  border-radius: 10px;
+}
+
+.fraseMain {
+  color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  padding: 5px;
+}
+
+.cardsDownload {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 3px 0px 3px 0px;
+  border-color: #ff4900;
+  box-shadow: 0px 0px 10px 0px #ff4900;
+  background-color: rgba(10,23,55,0.5);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  background-color: #222;
+}
+
+.titleApp {
+  color: #ff6600;
+  text-align: center;
+  font-family: "Roboto", Sans-serif;
+  font-size: 43px;
+  font-weight: bold;
+  line-height: 1em;
+}
+.imgApp {
+  width: 150px;
+}
+.btnDownload {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  background-color: #ff4900;
+  border-radius: 36px 36px 36px 36px;
+  display: inline-block;
+  line-height: 1;
+  font-size: 15px;
+  padding: 12px 24px;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+.btnDownload:hover {
+  transform: scale(.9);
+}
+.contato {
+  margin-top: 1rem;
+  border-radius: 10px;
+  background-color: rgba(10,23,55,0.5);
+  font-weight: 700;
+  height: 200px;
+  text-align: center;
+  padding: 1rem;
+}
+
+.FaleConosco {
+  font-family: 'Patua One';
+  font-size: 2.5em;
+  color: #ff4900;
+}
+
+.whatsBtn {
+  font-family: "Montserrat", Sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  fill: #ffffff;
+  color: #ffffff;
+  background-color: #ff4900;
+  border-radius: 133px 133px 133px 133px;
+  padding: 20px 20px 20px 20px;
+  display: block;
+  width: 200px;
+  margin: 0 auto;
+  margin-top: 1rem;
+  text-decoration: NONE;
+}
+
+.whatsBtn:hover{
+  transform: scale(1.1);
+}
+  
+
+
+
 }
