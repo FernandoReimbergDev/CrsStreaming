@@ -281,6 +281,7 @@ footer{
   }
   body{
     width: 100%;
+    height: fit-content;
   }
 
   .container {
@@ -322,18 +323,16 @@ footer{
 
 .card {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
   position: relative;
-  width: fit-content;
+  width: 80%;
   height: 250px;
   border-radius: 10px;
   padding: 10px;
   border-style: solid;
   border-width: 3px 0px 3px 0px;
-  border-color: #ff4900;
-  box-shadow: 0px 0px 10px 0px #ff4900;
   background-color: rgba(10,23,55,0.5);
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
@@ -352,7 +351,7 @@ footer{
   line-height: 1em;
 }
 .imgApp {
-  width: 150px;
+  width: 300px;
 }
 .btnDownload {
   font-family: "Poppins", sans-serif;
@@ -409,8 +408,5 @@ footer{
 .whatsBtn:hover{
   transform: scale(1.1);
 }
-  
-
-
 
 }
